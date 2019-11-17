@@ -17,9 +17,8 @@ variaveis:
 	n - numero de vertices
 	adj - matriz de adjacencia. valor = -1 vertices nao conectados
 	coor - coordenadas das cidades
-@author		Henrique Schiess Pertussati
-@author		Arthur Pereira
-@author		Ricardo Sena
+@author		Breno Aroeira Cosenza
+@author		Yuri Cancela Braga
 */
 class Graph{
 
@@ -65,9 +64,8 @@ struct ordenarPredecessor{
 
 
 /************************************************
- * @author Matheus Kraisfeld
- * @author Arthur Pereira
- * @author Ricardo Sena
+ * @author Breno Aroeira Cosenza
+ * @author Yuri Cancela Braga
  * Classe de algoritmo genético para o Problema do Caixeiro Viajante.
  ************************************************
  */
@@ -101,9 +99,9 @@ class algoritmoGenetico{
 /* 
 Construtor
 @param	size	Quantidade de vertices
-@author			Ricardo Sena
+@author			Yuri Cancela Braga
 @author			Desconhecido (checar Bibliografia[III])
-@author			Arthur Pereira
+@author			Breno Aroeira Cosenza
 */
 Graph::Graph(int size){
 
@@ -186,9 +184,8 @@ double Graph::getPeso(int v1, int v2) {
 /*
 algoritimo de força bruta que determina menor caminho
 @return	resposta = ordem que vértices devem ser visitados para o menor caminho.
-@author	Ricardo Sena
-@author Henrique Schiess Pertussati
-@author Arthur Pereira
+@author	Breno Aroeira Cosenza
+@author Yuri Cancela Braga
 */
 vector<int> Graph::bruteForce(){
 
@@ -216,9 +213,8 @@ algoritimo de força bruta que determina menor caminho
 @param	cidades	vetor com o caminho percorrido
 @param	bestC	vetor com a ordem atual dos vértices
 @return	bestC	retorna vetor dos inteiros com a ordem a ser seguida 	
-@author			Ricardo Sena
-@author     	Henrique Schiess Pertussati
-@author			Arthur Pereira
+@author	Yuri Cancela Braga
+@author Breno Aroeira Cosenza
 */
 vector<int> Graph::bruteForceR(int a, double res, double bestR, vector<int>cidades, vector<int> bestC){
 	for (int i = 0; i < n; i++){ //executa permutacao das arestas do vertice
@@ -243,9 +239,8 @@ vector<int> Graph::bruteForceR(int a, double res, double bestR, vector<int>cidad
 /*
 algoritimo de força bruta que determina menor caminho
 @return	resposta = ordem que vértices devem ser visitados para o menor caminho.
-@author      Henrique Schiess Pertussati
-@author      Ricardo Sena
-@author      Arthur Pereira
+@author      Breno Aroeira Cosenza
+@author      Yuri Cancela Braga
 */
 vector<int> Graph::branchBound(){
 	clock_t inicio, fim;
@@ -270,9 +265,8 @@ algoritimo de branch and bround que determina menor caminho
  @param	 cidades vetor com o caminho percorrido.
  @param	 bestC	 vetor com a ordem atual dos vértices.
  @return bestC	 retorna vetor dos inteiros com a ordem a ser seguida.
-@author      Henrique Schiess Pertussati
-@author      Ricardo Sena
-@author      Arthur Pereira
+@author      Breno Aroeira Cosenza
+@author      Yuri Cancela Braga
  */
 vector<int> Graph::branchBoundR(int a, double res, double bestR, vector<int>cidades, vector<int> bestC){
 	for(int i = 0; i < n; i++){ //executa permutacao das arestas do vertice
@@ -300,8 +294,8 @@ vector<int> Graph::branchBoundR(int a, double res, double bestR, vector<int>cida
 
 /*
 algoritimo dinamico que determina menor caminho
-@author      Ricardo Sena
-@author      Arthur Pereira
+@author      Breno Aroeira Cosenza
+@author      Yuri Cancela Braga
  */
 vector<int> Graph::dynamic(){
 	vector<int> resposta;
@@ -316,8 +310,8 @@ vector<int> Graph::dynamic(){
 
 /*
 algoritimo dinamico que determina menor caminho
-@author      Ricardo Sena
-@author      Arthur Pereira
+@author      Breno Aroeira Cosenza
+@author      Yuri Cancela Braga
  */
 vector<int> Graph::dynamicR(){
 	long nsub = 1 << n;
@@ -375,9 +369,8 @@ retorna se elemento esta no vetor de inteiros
 @param x	elemento que quer checar
 @param v	vetor com os valores
 @return		rep = true se estiver no vetor e false caso contrário.
-@author      Henrique Schiess Pertussati
-@author      Ricardo Sena
-@author      Arthur Pereira
+@author      Breno Aroeira Cosenza
+@author      Yuri Cancela Braga
 */
 bool Graph::isIn(int x, vector<int> v){
 	bool res = false;
@@ -395,9 +388,8 @@ bool Graph::isIn(int x, vector<int> v){
 
 /*
 imprime a matriz de adjacencia.
-@author      Henrique Schiess Pertussati
-@author      Ricardo Sena
-@author      Arthur Pereira
+@author      Breno Aroeira Cosenza
+@author      Yuri Cancela Braga
 */
 void Graph::printAdj(){
 	for (int i = 0; i < n; i++){
@@ -411,9 +403,8 @@ void Graph::printAdj(){
 
 /*
 imprime a matriz de coordendas. 
-@author      Henrique Schiess Pertussati
-@author      Ricardo Sena
-@author      Arthur Pereira
+@author      Breno Aroeira Cosenza
+@author      Yuri Cancela Braga
  */
 void Graph::printCoor(){
 	for (int i = 0; i < n; i++){
