@@ -1,15 +1,17 @@
+Tamanho: 4
+
 Resolução Força Bruta
-Tempo de Execução: 8.1e-05
+Tempo de Execução: 0.000116
 Caminho: 1 2 3 4
 Custo: 1751.05
 
 Resolução Branch and Bound
-Tempo de Execução: 5.2e-05
+Tempo de Execução: 5.6e-05
 Caminho: 1 2 3 4
 Custo: 1751.05
 
 Resolução Algoritmo Dinâmico
-Tempo de Execução: 4.8e-05
+Tempo de Execução: 5.1e-05
 Caminho: 1 4 2 3
 Custo: 1871.71
 
@@ -18,38 +20,42 @@ Tempo de Execução: 6e-06
 Custo: 1751.05
 Caminho: 1 4 3 2 
 ------------------------------
+Tamanho: 5
+
 Resolução Força Bruta
-Tempo de Execução: 0.000234
+Tempo de Execução: 0.000154
 Caminho: 1 5 2 3 4
 Custo: 2039.11
 
 Resolução Branch and Bound
-Tempo de Execução: 0.000121
+Tempo de Execução: 0.000119
 Caminho: 1 5 2 3 4
 Custo: 2039.11
 
 Resolução Algoritmo Dinâmico
-Tempo de Execução: 9.1e-05
+Tempo de Execução: 7.4e-05
 Caminho: 1 5 4 2 3
 Custo: 2181.09
 
 Resolução Algoritmo Genético
-Tempo de Execução: 5e-06
+Tempo de Execução: 4e-06
 Custo: 2039.11
 Caminho: 1 5 2 3 4 
 ------------------------------
+Tamanho: 6
+
 Resolução Força Bruta
-Tempo de Execução: 0.000735
+Tempo de Execução: 0.000839
 Caminho: 1 4 2 5 6 3
 Custo: 2724.51
 
 Resolução Branch and Bound
-Tempo de Execução: 0.000584
+Tempo de Execução: 0.000655
 Caminho: 1 4 2 5 6 3
 Custo: 2724.51
 
 Resolução Algoritmo Dinâmico
-Tempo de Execução: 0.000187
+Tempo de Execução: 0.00029
 Caminho: 1 4 2 3 6 5
 Custo: 2944.44
 
@@ -58,38 +64,42 @@ Tempo de Execução: 5e-06
 Custo: 2724.51
 Caminho: 1 4 2 5 6 3 
 ------------------------------
+Tamanho: 7
+
 Resolução Força Bruta
-Tempo de Execução: 0.008743
+Tempo de Execução: 0.00536
 Caminho: 1 2 3 4 7 6 5
 Custo: 2382.65
 
 Resolução Branch and Bound
-Tempo de Execução: 0.005084
+Tempo de Execução: 0.003524
 Caminho: 1 2 3 4 7 6 5
 Custo: 2382.65
 
 Resolução Algoritmo Dinâmico
-Tempo de Execução: 0.0008
+Tempo de Execução: 0.000801
 Caminho: 1 5 6 7 4 2 3
 Custo: 2605.64
 
 Resolução Algoritmo Genético
-Tempo de Execução: 8e-06
+Tempo de Execução: 5e-06
 Custo: 2382.65
 Caminho: 1 2 3 4 7 6 5 
 ------------------------------
+Tamanho: 8
+
 Resolução Força Bruta
-Tempo de Execução: 0.043099
+Tempo de Execução: 0.05038
 Caminho: 1 2 7 8 6 5 4 3
 Custo: 2818.35
 
 Resolução Branch and Bound
-Tempo de Execução: 0.013509
+Tempo de Execução: 0.01365
 Caminho: 1 2 7 8 6 5 4 3
 Custo: 2818.35
 
 Resolução Algoritmo Dinâmico
-Tempo de Execução: 0.000995
+Tempo de Execução: 0.001371
 Caminho: 1 2 7 8 3 4 5 6
 Custo: 2949.93
 
@@ -98,58 +108,64 @@ Tempo de Execução: 4e-06
 Custo: 2818.35
 Caminho: 1 2 7 8 6 5 4 3 
 ------------------------------
+Tamanho: 9
+
 Resolução Força Bruta
-Tempo de Execução: 0.349432
+Tempo de Execução: 0.347792
 Caminho: 1 4 6 2 5 3 8 9 7
 Custo: 2116.02
 
 Resolução Branch and Bound
-Tempo de Execução: 0.027473
+Tempo de Execução: 0.027009
 Caminho: 1 4 6 2 5 3 8 9 7
 Custo: 2116.02
 
 Resolução Algoritmo Dinâmico
-Tempo de Execução: 0.003369
+Tempo de Execução: 0.003498
 Caminho: 1 4 8 9 7 3 5 2 6
 Custo: 2385.62
 
 Resolução Algoritmo Genético
-Tempo de Execução: 5e-06
+Tempo de Execução: 6e-06
 Custo: 2482.37
 Caminho: 1 4 3 6 2 5 8 9 7 
 ------------------------------
+Tamanho: 10
+
 Resolução Força Bruta
-Tempo de Execução: 3.45734
+Tempo de Execução: 3.66757
 Caminho: 1 2 5 3 9 6 10 8 7 4
 Custo: 3657.16
 
 Resolução Branch and Bound
-Tempo de Execução: 0.368891
+Tempo de Execução: 0.387526
 Caminho: 1 2 5 3 9 6 10 8 7 4
 Custo: 3657.16
 
 Resolução Algoritmo Dinâmico
-Tempo de Execução: 0.007155
+Tempo de Execução: 0.006169
 Caminho: 1 2 5 7 8 4 3 9 6 10
 Custo: 4541.41
 
 Resolução Algoritmo Genético
-Tempo de Execução: 6e-06
+Tempo de Execução: 4e-06
 Custo: 3732.35
 Caminho: 1 7 4 10 8 9 6 3 5 2 
 ------------------------------
+Tamanho: 11
+
 Resolução Força Bruta
-Tempo de Execução: 37.2247
+Tempo de Execução: 36.9355
 Caminho: 1 4 8 7 3 2 6 10 5 9 11
 Custo: 2902.5
 
 Resolução Branch and Bound
-Tempo de Execução: 1.09016
+Tempo de Execução: 1.02411
 Caminho: 1 4 8 7 3 2 6 10 5 9 11
 Custo: 2902.5
 
 Resolução Algoritmo Dinâmico
-Tempo de Execução: 0.014735
+Tempo de Execução: 0.014424
 Caminho: 1 6 10 11 5 9 4 8 2 7 3
 Custo: 3526.17
 
@@ -158,18 +174,20 @@ Tempo de Execução: 5e-06
 Custo: 2904.52
 Caminho: 1 4 8 7 3 2 5 9 11 10 6 
 ------------------------------
+Tamanho: 12
+
 Resolução Força Bruta
-Tempo de Execução: 429.89
+Tempo de Execução: 443.767
 Caminho: 1 9 6 8 3 4 7 2 5 10 11 12
 Custo: 2770.77
 
 Resolução Branch and Bound
-Tempo de Execução: 6.82109
+Tempo de Execução: 6.61655
 Caminho: 1 9 6 8 3 4 7 2 5 10 11 12
 Custo: 2770.77
 
 Resolução Algoritmo Dinâmico
-Tempo de Execução: 0.035221
+Tempo de Execução: 0.029375
 Caminho: 1 9 12 11 6 8 3 4 7 10 2 5
 Custo: 3368.79
 

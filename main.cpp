@@ -60,6 +60,8 @@ int main() {
 		vector<int> resposta;
 		double caminhoTotal;
 
+		printf("Tamanho: %d\n\n", n);
+
 		for (size_t i = 0; i < 4; i++)
 		{
 			inicio = clock();
@@ -85,6 +87,7 @@ int main() {
 					break;
 			}
 			fim = clock();
+
 
 			cout << "Tempo de Execução: ";
 			cout << double(fim - inicio) / double(CLOCKS_PER_SEC) << endl;
